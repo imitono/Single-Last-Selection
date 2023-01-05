@@ -10,6 +10,12 @@ It would be convenient if there was a way to make it so that only the **last sel
 
 This plugin creates a custom command "single_last_selection" that will escape multple selection mode and keep only the **last selection**.
 
+## Installation
+
+-   Package Control: Add repository
+-   Add https://github.com/dperdikopoulos/Single-Last-Selection
+-   Package Control: Install Package 'Single-Last-Selection'
+
 ## Create a keybinding
 
 After installing the plugin create a key binding to the command.
