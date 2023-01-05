@@ -16,7 +16,7 @@ After installing the plugin create a key binding to the command.
 
 In the following example I have changed the binding of the default "single_selection" command to "shift+escape" and binded "single_last_selection" command to "escape", since my preffered behaviour is to keep the last selection.
 
-```json
+```
 { "keys": ["shift+escape"], "command": "single_selection", "context":
 	[
 		{ "key": "num_selections", "operator": "not_equal", "operand": 1 }
@@ -28,3 +28,7 @@ In the following example I have changed the binding of the default "single_selec
 	]
 },
 ```
+
+## Credits
+
+Full credits for this plugin go to https://superuser.com/a/1051516
